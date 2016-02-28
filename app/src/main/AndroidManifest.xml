@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.studyjam.phandeeyar" >
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".PhandeeyarApp"
         android:allowBackup="true"
